@@ -1,8 +1,8 @@
 // New System class
 public class NewSystem {
-    private NewDatabase userDatabase;
+    private INewDatabase userDatabase;
 
-    public NewSystem(NewDatabase userDatabase) {
+    public NewSystem(INewDatabase userDatabase) {
         this.userDatabase = userDatabase;
     }
 

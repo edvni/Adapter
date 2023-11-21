@@ -1,5 +1,5 @@
 // Adapter class changes OldDatabase-class to NewDatabase-interface
-public class DatabaseAdapter implements NewDatabase {
+public class DatabaseAdapter implements INewDatabase {
     private OldDatabase oldDatabase;
 
     public DatabaseAdapter(OldDatabase oldDatabase) {
